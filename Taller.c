@@ -1,13 +1,11 @@
 #include<stdio.h>
 #include<stdbool.h>
+#include<math.h>
 int main() {
-         //Dada la matricula y cinco calificaciones de un alumno obtenidas a lo largo del semestre, construye un diagrama de flujo que imprima la matricula del estudiante y el promedio de sus calificaciones
-            int matricula = 12345;
-            float calf1 = 3.5;
-            float calf2 = 4.1;
-            float calf3 = 2.9;
-            float calf4 = 4.3;
-            float calf5 = 3.7;
-            float promedio = (calf1 + calf2 + calf3 + calf4 + calf5) / 5;
-            printf(" Matricula: %d\n Promedio: %f",matricula, promedio);
+         //Construya un diagrama de flujo tal que dados los datos, la base y la altura de un triangulo calcule el perímetro y la superficie del mismo
+            int base = 5;
+            int altura = 9;
+            int perimetro = sqrt((base * base) +  (altura * altura));
+            int superficie = (base * altura) / 2;
+            printf(" Perimetro: %d\n Superficie: %d", perimetro, superficie);
          }
