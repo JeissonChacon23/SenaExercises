@@ -2,10 +2,12 @@
 #include<stdbool.h>
 #include<math.h>
 int main() {
-         //Construya un diagrama de flujo tal que dados los datos, la base y la altura de un triangulo calcule el perímetro y la superficie del mismo
-            int base = 5;
-            int altura = 9;
-            int perimetro = sqrt((base * base) +  (altura * altura));
-            int superficie = (base * altura) / 2;
-            printf(" Perimetro: %d\n Superficie: %d", perimetro, superficie);
+         //Desarrolle un diagrama de flujo, tal que dados como datos dos números reales calcule la suma, resta, multiplicación y división de dichos números
+            int x = 5;
+            int y = 9;
+            int suma = x + y;
+            int resta = x - y;
+            int multiplicacion = x * y;
+            int division = x / y;
+            printf("Suma: %d\nResta: %d\nMultiplicacion: %d\nDivision: %d",suma, resta, multiplicacion, division);
          }
