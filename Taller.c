@@ -2,12 +2,9 @@
 #include<stdbool.h>
 #include<math.h>
 int main() {
-         //Desarrolle un diagrama de flujo, tal que dados como datos dos números reales calcule la suma, resta, multiplicación y división de dichos números
-            int x = 5;
-            int y = 9;
-            int suma = x + y;
-            int resta = x - y;
-            int multiplicacion = x * y;
-            int division = x / y;
-            printf("Suma: %d\nResta: %d\nMultiplicacion: %d\nDivision: %d",suma, resta, multiplicacion, division);
+         //Construya un df que resuelva el problema que tienen en una gasolinera los surtidores de la misma registran lo que surten en galones, pero el precio de la gasolina está fijado en litros. El df debe calcular e imprimir lo que hay que cobrarle al cliente.
+            float galones = 3.5;
+            float precioGalonGasolina = 13660;
+            float precioCliente = galones * precioGalonGasolina;
+            printf("Valor a Pagar: %f",precioCliente);
          }
