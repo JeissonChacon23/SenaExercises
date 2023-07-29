@@ -1,10 +1,27 @@
 #include<stdio.h>
 #include<stdbool.h>
 int main() {
-         //Leer el radio de un circulo, calcular la superficie y longitud de la circunferencia.
-         float radio = 4;
-         float superficie = 3.1416 * (radio * radio);
-         float circunferencia = 2 * 4.1416 * radio;
+         //Construya un diagrama de flujo, dados los datos A,B,C y D que representan números enteros, escriban los mismo en orden inverso
+         int a = 1;
+         int b = 2;
+         int c = 3;
+         int d = 4;
+         printf("%d %d %d %d\n", a, b, c, d);
+         printf("%d %d %d %d\n", d, c, b, a);
 
-         printf(" Radio: %f \n Superficie: %f \n Circunferencia: %f",radio, superficie, circunferencia);
+         int num = 1234;
+         int cif1 = num / 1000;
+         int mod1 = num % 1000;
+         int cif2 = mod1 / 100;
+         int mod2 = mod1 % 100;
+         int cif3 = mod2 /10;
+         int cif4 = mod2 % 10;
+
+         printf("%d", cif1);
+         printf("%d", cif2);
+         printf("%d", cif3);
+         printf("%d\n", cif4);
+
+         int inverso = (cif4 * 1000) + (cif3 * 100) + (cif2 * 10) + cif1;
+         printf("%d", inverso);
  }
