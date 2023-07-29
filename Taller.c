@@ -1,9 +1,13 @@
 #include<stdio.h>
 #include<stdbool.h>
 int main() {
-         //Construye un diagrama de flujo tal que dados los datos enteros A y B escriba el resultado de la siguiente expresión. ((A + B) ^ 2) / 3
-            int a = 4;
-            int b = 7;
-            int solucionExpresion = ((a + b) * (a + b)) / 3;
-            printf("Solucion: %d\n",solucionExpresion);
+         //Dada la matricula y cinco calificaciones de un alumno obtenidas a lo largo del semestre, construye un diagrama de flujo que imprima la matricula del estudiante y el promedio de sus calificaciones
+            int matricula = 12345;
+            float calf1 = 3.5;
+            float calf2 = 4.1;
+            float calf3 = 2.9;
+            float calf4 = 4.3;
+            float calf5 = 3.7;
+            float promedio = (calf1 + calf2 + calf3 + calf4 + calf5) / 5;
+            printf(" Matricula: %d\n Promedio: %f",matricula, promedio);
          }
