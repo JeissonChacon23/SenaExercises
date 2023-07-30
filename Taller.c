@@ -7,32 +7,38 @@ int main() {
          //para la evaluaci6n de los mismos. Los tiempos que cada empleado demora en la elaboración de un artículo de cada tipo de producto 
          //se dan en la siguiente tabla en minutos:
             int empleado = 1;
-            int productoA;
-            int productoB;
-            int productoC;
-            int tiempo;
+            int productoA = 23;
+            int productoB = 42;
+            int productoC = 91;
+            int tiempoA;
+            int tiempoB;
+            int tiempoC;
+            int tiempoTotal;
 
             if(empleado == 1){
-                productoA = 12;
-                productoB = 13;
-                productoC = 7;
-                tiempo = productoA + productoB + productoC;
-                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempo);
+                tiempoA = 12;
+                tiempoB = 13;
+                tiempoC = 7;
+                tiempoTotal = tiempoA + tiempoB + tiempoC;
+                tiempoTotal = (productoA * tiempoA) + (productoB * tiempoB)+ (productoC * tiempoC);
+                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempoTotal);
             }
             empleado = 2;
             if(empleado == 2){
-                productoA = 9;
-                productoB = 15;
-                productoC = 17;
-                tiempo = productoA + productoB + productoC;
-                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempo);
+                tiempoA = 9;
+                tiempoB = 15;
+                tiempoC = 17;
+                tiempoTotal = tiempoA + tiempoB + tiempoC;
+                tiempoTotal = (productoA * tiempoA) + (productoB * tiempoB)+ (productoC * tiempoC);
+                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempoTotal);
             }
             empleado =3;
             if(empleado == 3){
-                productoA = 15;
-                productoB = 8;
-                productoC = 6;
-                tiempo = productoA + productoB + productoC;
-                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempo);
+                tiempoA = 15;
+                tiempoB = 8;
+                tiempoC = 6;
+                tiempoTotal = tiempoA + tiempoB + tiempoC;
+                tiempoTotal = (productoA * tiempoA) + (productoB * tiempoB)+ (productoC * tiempoC);
+                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempoTotal);
             }
          }
