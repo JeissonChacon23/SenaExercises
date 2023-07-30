@@ -3,24 +3,10 @@
 #include<math.h>
 
 int main() {
-         //construya un diagrama de flujo que calcule la distancia entre dos puntos. Dado como datos las coordenadas de los puntos Pl y P2.
-            int distancia;
-            int p1[2];
-            p1[0] = 2;
-            p1[1] = 2;
-            int p2[2];
-            p2[0] = 2;
-            p2[1] = 4;
-            distancia = sqrt(((p2[0] - p1[0]) * 2 ) + ((p2[1] - p1[1]) * 2));
-            printf("Distancia %d",distancia);
-
-
-
-            int medida[5];
-            medida[0] = 2;
-            medida[1] = 5;
-            medida[2] = 3;
-            medida[3] = 6;
-            medida[4] = 7;
-            //medida[5] = 10; Esta no la acepta ya que se sale del tama;o asignado del vector 
+         //Una persona compro una porci6n de tierra, 1a extensi6n de la tierra esta especificada en acres. Construya un diagrama de 
+         //flujo tal que dado como dato la extensión del campo en acres・ Calcule e imprima la extensión del mismo en hectáreas. 
+         //(1 acre es esquivamente a 4047 m2 y l hectárea tiene lOOOO m2 ).
+            float acres = 2.3;
+            float hectares = acres * 0.404686;
+            printf("Hectareas: %f", hectares);
          }
