@@ -3,10 +3,13 @@
 #include<math.h>
 
 int main() {
-         //Una persona compro una porci6n de tierra, 1a extensi6n de la tierra esta especificada en acres. Construya un diagrama de 
-         //flujo tal que dado como dato la extensión del campo en acres・ Calcule e imprima la extensión del mismo en hectáreas. 
-         //(1 acre es esquivamente a 4047 m2 y l hectárea tiene lOOOO m2 ).
-            float acres = 2.3;
-            float hectares = acres * 0.404686;
-            printf("Hectareas: %f", hectares);
+         //Dada la estabilidad económica que existe en un país de Latinoam6rica, las agencias automotrices comienzan a ofrecer 
+         //distintos planes de financiamiento para la comercializaci6n de sus vehículos. 
+         //La empresa XGW ofrece el siguiente plan de financiaci6n, dado el monto total del vehículo, 
+         //el cliente debe pagar e1 35 %del enganche y el resto en 18 mensualidades iguales sin intereses. 
+         //Construya el diagrama de flujo que permita obtener cual es el importe del enganche y las mensualidades que debe pagar el cliente.
+            int montoTotal = 204000000;
+            int pagoEnganche = montoTotal * 0.35;
+            int mensualidad = (montoTotal - pagoEnganche) / 18;
+            printf("Monto Total: %d\nPago Enganche: %d\nMensualidad: %d",montoTotal, pagoEnganche,mensualidad);
          }
