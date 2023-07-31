@@ -1,44 +1,15 @@
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>
-
 int main() {
-         // En una empresa que fabrica 3 tipos de productos (A, B, C) se cuenta con la colaboración de 3 empleados (E1, E2, E3) 
-         //para la evaluaci6n de los mismos. Los tiempos que cada empleado demora en la elaboración de un artículo de cada tipo de producto 
-         //se dan en la siguiente tabla en minutos:
-            int empleado = 1;
-            int productoA = 23;
-            int productoB = 42;
-            int productoC = 91;
-            int tiempoA;
-            int tiempoB;
-            int tiempoC;
-            int tiempoTotal;
-
-            if(empleado == 1){
-                tiempoA = 12;
-                tiempoB = 13;
-                tiempoC = 7;
-                tiempoTotal = tiempoA + tiempoB + tiempoC;
-                tiempoTotal = (productoA * tiempoA) + (productoB * tiempoB)+ (productoC * tiempoC);
-                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempoTotal);
-            }
-            empleado = 2;
-            if(empleado == 2){
-                tiempoA = 9;
-                tiempoB = 15;
-                tiempoC = 17;
-                tiempoTotal = tiempoA + tiempoB + tiempoC;
-                tiempoTotal = (productoA * tiempoA) + (productoB * tiempoB)+ (productoC * tiempoC);
-                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempoTotal);
-            }
-            empleado =3;
-            if(empleado == 3){
-                tiempoA = 15;
-                tiempoB = 8;
-                tiempoC = 6;
-                tiempoTotal = tiempoA + tiempoB + tiempoC;
-                tiempoTotal = (productoA * tiempoA) + (productoB * tiempoB)+ (productoC * tiempoC);
-                printf("Al empleado %d le toma %d minutos la elaboracion de los articulos\n",empleado, tiempoTotal);
-            }
+        //17.) Un vendedor recibe un sueldo base, más un bono extra por Comisión de sus ventas, el vendedor desea saber 
+        //cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total 
+        //que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
+            int sueldoBase = 1300000;
+            int comision1 = 15000;
+            int comision2 = 45000;
+            int comision3 = 25000;
+            int bonoExtraComision = comision1 + comision2 + comision3;
+            printf("Sueldo Base: %d\nComision: %d\nSueldo Total: %d", sueldoBase, bonoExtraComision,(bonoExtraComision + sueldoBase));
+            return 0;
          }
