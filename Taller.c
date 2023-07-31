@@ -2,12 +2,10 @@
 #include<stdbool.h>
 #include<math.h>
 int main() {
-            //18.) En un hospital existen tres áreas: Ginecología, Pediatra, Traumatóloga.
-            //El presupuesto anual (o monto) del hospital se reparte conforme a la siguiente tabla:
-                double presupuestoAnual = 1000000000;
-                double ginecologia = presupuestoAnual * 0.40;
-                double pediatria = presupuestoAnual * 0.30;
-                double traumatologia = presupuestoAnual * 0.30;
-                printf("Presupuesto Anual: %.2f\nGinecologia: %.2f\nPediatria: %.2f\nTraumatologia: %.2f", 
-                presupuestoAnual, ginecologia, pediatria, traumatologia);
+            //19.) La cervezaくくSin alcohol” tiene hasta un l % de alcohol. Calcula que cantidad de cerveza <Sin alcohol≫ 
+            //debe beber una persona para consumir 25 mL de alcohol.
+                double cantidadML = 355;
+                double alcohol = cantidadML * 0.01;
+                double cervezas = 25 / alcohol;
+                printf("Tamanio: %.2fml\nPorcentaje 1: %.2fml\nCantidad: %.2f Cervezas", cantidadML, alcohol, cervezas);
          }
